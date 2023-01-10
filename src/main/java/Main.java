@@ -1,9 +1,7 @@
-// dev branch for Y.Practicum
 import java.util.Scanner;
 import java.util.Arrays;
 import java.util.*;
 public class Main {
-
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
         System.out.println("На скольких человек необходимо разделить счёт?");
@@ -27,7 +25,7 @@ public class Main {
             }
             System.out.println("Введите цену товара (в формате рубли.копейки)");
             double productPrice = input.nextDouble();
-            if (productPrice < 0){
+            if (productPrice < 0.00){
                 System.out.println("Вы ввели неправильную цену товара (она не может быть отрицательной)");
                 System.out.println("Введите новую цену товара (в формате рубли.копейки)");
                 productPrice = input.nextDouble();
