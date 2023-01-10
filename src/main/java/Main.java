@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Arrays;
 import java.util.*;
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         Scanner input = new Scanner(System.in);
         System.out.println("На скольких человек необходимо разделить счёт?");
         int quantity = input.nextInt();
