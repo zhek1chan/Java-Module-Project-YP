@@ -17,7 +17,7 @@ public class Main {
             }
         }
         if (quantity <= 1) {
-            System.out.println("Неверный ввод!");
+            System.out.println("Неверный ввод! ");
             System.out.println("Вы ввели неправильное количество. Введите заново количество человек, на которых необходимо разделить счёт");
             quantity = input.nextInt();
         }
